@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I am",
+    "title": "Full-Stack Developer",
+    "description": "Building mobile apps with Flutter, web apps with React, and scalable backend solutions with Node.js."
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Started my journey with Java and C++. Today, I deploy full-stack projects using Nginx and PM2 on AWS cloud infrastructures.",
+    "education": "Education",
+    "experience": "Experience",
+    "hobbies": "Interests"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": "Frontend & Mobile",
+      "backend": "Backend & Database",
+      "devops": "DevOps & Tools",
+      "other": "Other Languages"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "view_code": "View Code",
+    "live_demo": "Live Demo",
+    "details": "View Details",
+    "filter_all": "All"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name_label": "Your Name",
+    "email_label": "Email",
+    "subject_label": "Subject",
+    "message_label": "Your Message",
+    "send_button": "Send",
+    "success_msg": "Your message has been sent successfully!"
+  }
+}

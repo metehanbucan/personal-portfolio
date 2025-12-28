@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Chat App",
+    "description": {
+      "tr": "Node.js, WebSocket ve PostgreSQL ile geliştirilmiş gerçek zamanlı mesajlaşma uygulaması.",
+      "en": "Real-time messaging app built with Node.js, WebSocket, and PostgreSQL."
+    },
+    "image": "/assets/projects/chat.png",
+    "technologies": ["Node.js", "WebSocket", "PostgreSQL", "React"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": "https://..."
+  },
+  {
+    "id": 2,
+    "title": "Flutter Ecommerce App",
+    "description": {
+      "tr": "Riverpod state yönetimi ve Clean Architecture prensipleriyle yazılmış mobil uygulama.",
+      "en": "Mobile app built with Riverpod state management and Clean Architecture."
+    },
+    "image": "/assets/projects/flutter-app.png",
+    "technologies": ["Flutter", "Dart", "Riverpod"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": null
+  },
+  {
+    "id": 3,
+    "title": "Digital Watch (8086)",
+    "description": {
+      "tr": "8086 Assembly dili ile kodlanmış, dijital saat simülasyonu.",
+      "en": "Digital watch simulation coded with 8086 Assembly language."
+    },
+    "image": "/assets/projects/asm-watch.png",
+    "technologies": ["8086 Assembly", "Emu8086"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": null
+  },
+  {
+    "id": 4,
+    "title": "Desktop Inventory System",
+    "description": {
+      "tr": "Java ve JavaFX kullanılarak geliştirilmiş masaüstü stok yönetim sistemi.",
+      "en": "Desktop inventory management system developed using Java and JavaFX."
+    },
+    "image": "/assets/projects/java-fx.png",
+    "technologies": ["Java", "JavaFX"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": null
+  },
+  {
+    "id": 5,
+    "title": "AWS Cloud Deployment",
+    "description": {
+      "tr": "Nginx ve PM2 yapılandırması ile AWS üzerinde yayınlanmış web mimarisi.",
+      "en": "Web architecture deployed on AWS with Nginx and PM2 configuration."
+    },
+    "image": "/assets/projects/aws.png",
+    "technologies": ["AWS", "Nginx", "PM2"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": "https://..."
+  },
+  {
+    "id": 6,
+    "title": "Portfolio Site",
+    "description": {
+      "tr": "Şu an incelediğiniz, Clean Architecture ile geliştirilmiş React projesi.",
+      "en": "The React project you are currently reviewing, built with Clean Architecture."
+    },
+    "image": "/assets/projects/portfolio.png",
+    "technologies": ["React", "Context API", "Tailwind"],
+    "githubUrl": "https://github.com/...",
+    "demoUrl": "https://..."
+  }
+]

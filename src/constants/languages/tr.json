@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "downloadCV": "CV İndir"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "title": "Full-Stack Geliştirici",
+    "description": "Flutter ile mobil, React ile web ve Node.js ile ölçeklenebilir backend çözümleri üretiyorum."
+  },
+  "about": {
+    "title": "Hakkımda",
+    "bio": "Yazılım dünyasına Java ve C++ ile temel atarak başladım. Bugün AWS bulut altyapılarında Nginx ve PM2 kullanarak tam kapsamlı projeler yayınlıyorum.",
+    "education": "Eğitim Bilgileri",
+    "experience": "Deneyim",
+    "hobbies": "İlgi Alanları"
+  },
+  "skills": {
+    "title": "Teknik Yetenekler",
+    "categories": {
+      "frontend": "Önyüz & Mobil",
+      "backend": "Arkayüz & Veritabanı",
+      "devops": "DevOps & Araçlar",
+      "other": "Diğer Diller"
+    }
+  },
+  "projects": {
+    "title": "Projelerim",
+    "view_code": "Kodu Gör",
+    "live_demo": "Canlı Demo",
+    "details": "Detayları Gör",
+    "filter_all": "Hepsi"
+  },
+  "contact": {
+    "title": "Bana Ulaşın",
+    "name_label": "Adınız",
+    "email_label": "E-posta",
+    "subject_label": "Konu",
+    "message_label": "Mesajınız",
+    "send_button": "Gönder",
+    "success_msg": "Mesajınız başarıyla iletildi!"
+  }
+}
