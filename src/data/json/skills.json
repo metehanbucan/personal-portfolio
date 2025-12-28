@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Frontend & Mobile",
+    "items": [
+      { "name": "React", "level": 90, "icon": "ri-reactjs-line" },
+      { "name": "Flutter & Dart", "level": 85, "icon": "ri-flutter-fill" },
+      { "name": "Zustand & Riverpod", "level": 80, "icon": "ri-stack-line" }
+    ]
+  },
+  {
+    "category": "Backend & Database",
+    "items": [
+      { "name": "Node.js (REST & WebSocket)", "level": 85, "icon": "ri-nodejs-line" },
+      { "name": "PostgreSQL (Relational DB)", "level": 80, "icon": "ri-database-2-line" },
+      { "name": "Auth (JWT & OAuth2)", "level": 75, "icon": "ri-lock-password-line" }
+    ]
+  },
+  {
+    "category": "DevOps & Tools",
+    "items": [
+      { "name": "AWS & Nginx", "level": 70, "icon": "ri-cloud-line" },
+      { "name": "Clean Architecture", "level": 85, "icon": "ri-mickey-line" },
+      { "name": "PM2 & Deployment", "level": 75, "icon": "ri-server-line" }
+    ]
+  },
+  {
+    "category": "Other Languages & CS",
+    "items": [
+      { "name": "Java & JavaFX", "level": 70, "icon": "ri-cup-line" },
+      { "name": "C / C++", "level": 60, "icon": "ri-code-s-slash-line" },
+      { "name": "8086 Assembly", "level": 40, "icon": "ri-cpu-line" }
+    ]
+  }
+]
