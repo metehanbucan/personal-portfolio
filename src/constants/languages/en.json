@@ -1,0 +1,83 @@
+{
+  "nav": [
+    { "href": "#home", "label": "Home" },
+    { "href": "#about", "label": "About" },
+    { "href": "#projects", "label": "Projects" },
+    { "href": "#experience", "label": "Experience" },
+    { "href": "#contact", "label": "Contact" }
+  ],
+  "hero": {
+    "title": "Computer Engineering Student",
+    "subtitle": "Full-Stack Developer",
+    "description": "I code digital systems with precision.",
+    "subDescription": "Hi, I'm Metehan Buçan — a computer engineering student in Rumeli University, specializing in React. I build scalable, performant web applications that users love.",
+    "contactButton": "Contact Me",
+    "downloadButton": "Download CV",
+    "followLabel": "Follow Me",
+    "socialLinks": {
+      "github": "https://www.github.com/metehanbucan",
+      "linkedin": "https://www.linkedin.com/in/metehanbuçan"
+    }
+  },
+
+  "skills": {
+    "title": "Technologies I Work With",
+    "description": "I am continuously focused on improving my knowledge and skills and learning new technologies.",
+    "skillsList": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Java",
+      "C++",
+      "Flutter",
+      "AWS",
+      "Tailwind CSS",
+      "Figma",
+      "Git",
+      "GitHub Actions"
+    ],
+    "scrollLabel": "SCROLL"
+  },
+
+  "about": {
+    "title": "ABOUT ME",
+    "header": {
+      "firstPart": "Building the future,",
+      "secondPart": "one component at a time."
+    },
+    "firstParagraph": "I'm a passionate computer engineering student at Rumeli University, currently in my 3rd year. My journey began with a deep curiosity about how the web works, which has since evolved into a focused expertise in building modern, scalable web applications with React. I thrive on bridging the gap between complex backend logic and seamless frontend experiences to craft digital products that make a difference.",
+    "secondParagraph": "I specialize in React and modern JavaScript, building everything from sleek landing pages to functional full-stack applications. As a Computer Engineering student, my approach combines technical problem-solving with a keen eye for design and user experience.",
+    "thirdParagraph": "When I'm not coding, you'll find me exploring the latest tech trends, diving into new developer tools, or seeking creative ways to solve complex engineering problems.",
+    "containerParagraph": "My mission is to create digital experiences that are not just functional, but truly delightful—products that users love to use and developers love to maintain.",
+
+    "highlights": [
+      {
+        "icon": "Code2",
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable code that stands the test of time."
+      },
+      {
+        "icon": "Rocket",
+        "title": "Performance",
+        "description": "Optimizing for speed and delivering lightning-fast user experiences."
+      },
+      {
+        "icon": "Users",
+        "title": "Collaboration",
+        "description": "Working closely with teams to bring ideas to life."
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Innovation",
+        "description": "Staying ahead with the latest technologies and best practices."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "My Projects",
+    "headerFirstPart": "Projects that",
+    "headerSecondPart": "make an impact.",
+    "description": "A selection of my recent work, from functional web applications to creative tools that solve real-world problems through code."
+  }
+}

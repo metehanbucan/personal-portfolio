@@ -1,0 +1,83 @@
+{
+  "nav": [
+    { "href": "#home", "label": "Ana Sayfa" },
+    { "href": "#about", "label": "Hakkımda" },
+    { "href": "#projects", "label": "Projeler" },
+    { "href": "#experience", "label": "Deneyim" },
+    { "href": "#contact", "label": "İletişim" }
+  ],
+  "hero": {
+    "title": "Bilgisayar Mühendisliği Öğrencisi",
+    "subtitle": "Full-Stack Geliştirici",
+    "description": "Dijital sistemleri hassasiyetle kodluyorum.",
+    "subDescription": "Merhaba, ben Metehan Buçan. Rumeli Üniversitesi'nde Bilgisayar Mühendisliği öğrencisiyim ve React alanında uzmanlaşıyorum. Kullanıcıların severek kullandığı, ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyorum.",
+    "contactButton": "İletişime Geçin",
+    "downloadButton": "CV İndir",
+    "followLabel": "Beni Takip Edin",
+    "socialLinks": {
+      "github": "https://www.github.com/metehanbucan",
+      "linkedin": "https://www.linkedin.com/in/metehanbuçan"
+    }
+  },
+
+  "skills": {
+    "title": "Kullandığım Teknolojiler",
+    "description": "Bilgi ve becerilerimi sürekli olarak geliştirmeye ve yeni teknolojiler öğrenmeye odaklanıyorum.",
+    "skillsList": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Java",
+      "C++",
+      "Flutter",
+      "AWS",
+      "Tailwind CSS",
+      "Figma",
+      "Git",
+      "GitHub Actions"
+    ],
+    "scrollLabel": "KAYDIR"
+  },
+
+  "about": {
+    "title": "HAKKIMDA",
+    "header": {
+      "firstPart": "Adım adım,",
+      "secondPart": "Geleceği İnşa Ediyoruz."
+    },
+    "firstParagraph": "Rumeli Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisi ve dijital dünyayı inşa etmeye tutkulu bir yazılımcıyım. İnternetin nasıl çalıştığına dair duyduğum merakla başlayan yolculuğum, bugün React ile modern ve ölçeklenebilir web uygulamaları geliştirme konusunda bir uzmanlığa dönüştü. Karmaşık arka plan (backend) mantığı ile kusursuz ön yüz (frontend) deneyimleri arasındaki köprüyü kurarak, fark yaratan dijital ürünler geliştirmekten büyük keyif alıyorum.",
+    "secondParagraph": "React ve modern JavaScript teknolojileri üzerine yoğunlaşarak, şık açılış sayfalarından işlevsel full-stack uygulamalara kadar çeşitli projeler geliştiriyorum. Bir Bilgisayar Mühendisliği öğrencisi olarak yaklaşımım; teknik problem çözme yeteneğimi, estetik tasarım anlayışı ve kullanıcı deneyimiyle birleştirmeyi temel alıyor.",
+    "thirdParagraph": "Kod yazmadığım zamanlarda beni yeni teknoloji trendlerini keşfederken, yeni geliştirici araçlarını incelerken veya karmaşık mühendislik problemlerini çözmek için yaratıcı yollar ararken bulabilirsiniz.",
+    "containerParagraph": "Misyonum; sadece işlevsel değil, aynı zamanda büyüleyici dijital deneyimler sunmak—kullanıcıların kullanmaktan keyif aldığı, geliştiricilerin ise sürdürmekten (bakım yapmaktan) heyecan duyduğu ürünler inşa etmek.",
+
+    "highlights": [
+      {
+        "icon": "Code2",
+        "title": "Temiz Kod",
+        "description": "Bakımı kolay, ölçeklenebilir kod yazmak."
+      },
+      {
+        "icon": "Rocket",
+        "title": "Performans",
+        "description": "Hız için optimize etmek ve yıldırım hızında kullanıcı deneyimleri sunmak."
+      },
+      {
+        "icon": "Users",
+        "title": "İşbirliği",
+        "description": "Fikirleri hayata geçirmek için takımlarla yakın çalışmak."
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Yenilikçilik",
+        "description": "En son teknolojiler ve en iyi uygulamalarla önde olmak."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Projelerim",
+    "headerFirstPart": "Etkileyici",
+    "headerSecondPart": "projeler.",
+    "description": "Fonksiyonel web uygulamalarından, gerçek dünya problemlerine kodla çözüm üreten yaratıcı araçlara kadar; son dönemde geliştirdiğim projelerden bir seçki."
+  }
+}

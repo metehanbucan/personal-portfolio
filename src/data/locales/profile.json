@@ -1,0 +1,20 @@
+{
+    "name":"Metehan Buçan",
+    "title":{
+        "tr": "Bilgisayar Mühendisliği Öğrencisi",
+        "en": "Computer Engineering Student"
+    },
+    "bio":{
+        "tr": "Merhaba! Ben Metehan Buçan, Bilgisayar Mühendisliği öğrencisiyim. Yazılım geliştirme ve teknolojiye olan ilgimle projeler üretmeyi seviyorum.",
+        "en": "Hello! I'm Metehan Buçan, a Computer Engineering student."
+    },
+    "avatar":"/assets/avatar.jpg",
+    "email": "metehanbucan@gmail.com",
+    "phone": "+90 540 106 10 99",
+    "location": "Istanbul, Turkey",
+    "social": {
+        "github": "https://github.com/metehanbucan",
+        "linkedin":" https://www.linkedin.com/in/metehanbucan/"
+    },
+    "cvFile": "/assets/cv.pdf"
+}
