@@ -6,11 +6,14 @@ import {
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
+
+import * as icons from "lucide-react";
 import { Button } from "@/components/Button";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useLang } from "../context/LanguageContext";
 
-const contactInfo = [
+/* const contactInfo = [
   {
     icon: Mail,
     label: "Email",
@@ -29,9 +32,12 @@ const contactInfo = [
     value: "San Francisco, CA",
     href: "#",
   },
-];
+]; */
 
 export const Contact = () => {
+  const { stringData, language } = useLang();
+  const strings = stringData.contact;
+  const contactInfo = strings.contactInfo;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -97,17 +103,16 @@ export const Contact = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-            Get In Touch
+            {strings.title}
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            {strings.headerPart1}{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+              {strings.headerPart2}
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            {strings.description}
           </p>
         </div>
 
@@ -119,13 +124,13 @@ export const Contact = () => {
                   htmlFor="name"
                   className="block text-sm font-medium mb-2"
                 >
-                  Name
+                  {strings.name}
                 </label>
                 <input
                   id="name"
                   type="text"
                   required
-                  placeholder="Your name..."
+                  placeholder={strings.namePlaceholder}
                   value={formData.name}
                   onChange={(e) =>
                     setFormData({ ...formData, name: e.target.value })
@@ -140,11 +145,11 @@ export const Contact = () => {
                   type="email"
                   className="block text-sm font-medium mb-2"
                 >
-                  Email
+                  {strings.email}
                 </label>
                 <input
                   required
-                  placeholder="your@email.com"
+                  placeholder={strings.emailPlaceholder}
                   value={formData.email}
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
@@ -158,7 +163,7 @@ export const Contact = () => {
                   htmlFor="message"
                   className="block text-sm font-medium mb-2"
                 >
-                  Message
+                  {strings.message}
                 </label>
                 <textarea
                   rows={5}
@@ -167,7 +172,7 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, message: e.target.value })
                   }
-                  placeholder="Your message..."
+                  placeholder={strings.messagePlaceholder}
                   className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
                 />
               </div>
@@ -182,7 +187,7 @@ export const Contact = () => {
                   <>Sending...</>
                 ) : (
                   <>
-                    Send Message
+                    {strings.sendButton}
                     <Send className="w-5 h-5" />
                   </>
                 )}
@@ -212,26 +217,29 @@ export const Contact = () => {
           <div className="space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">
-                Contact Information
+                {strings.information.title}
               </h3>
               <div className="space-y-4">
-                {contactInfo.map((item, i) => (
-                  <a
-                    key={i}
-                    href={item.href}
-                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
-                  >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <item.icon className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <div className="text-sm text-muted-foreground">
-                        {item.label}
+                {contactInfo.map((item, i) => {
+                  const LucideIcon = icons[item.icon];
+                  return (
+                    <a
+                      key={i}
+                      href={item.href}
+                      className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
+                    >
+                      <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                        <LucideIcon className="w-5 h-5 text-primary" />
                       </div>
-                      <div className="font-medium">{item.value}</div>
-                    </div>
-                  </a>
-                ))}
+                      <div>
+                        <div className="text-sm text-muted-foreground">
+                          {item.label}
+                        </div>
+                        <div className="font-medium">{item.value}</div>
+                      </div>
+                    </a>
+                  );
+                })}
               </div>
             </div>
 
@@ -239,12 +247,12 @@ export const Contact = () => {
             <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="font-medium">Currently Available</span>
+                <span className="font-medium">
+                  {strings.availability.title}
+                </span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+                {strings.availability.description}
               </p>
             </div>
           </div>

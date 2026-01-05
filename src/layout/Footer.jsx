@@ -1,20 +1,23 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { useLang } from "../context/LanguageContext";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-];
-
-const footerLinks = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  {
+    icon: Github,
+    href: "https://www.github.com/metehanbucan",
+    label: "GitHub",
+  },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/metehanbuçan",
+    label: "LinkedIn",
+  },
 ];
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const footerStrings = useLang().stringData.footer;
+  const footerLinks = footerStrings.links;
 
   return (
     <footer className="py-12 border-t border-border">
@@ -23,10 +26,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              MB<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} {footerStrings.rights}
             </p>
           </div>
 
@@ -50,6 +53,7 @@ export const Footer = () => {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
+                target="_blank"
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
                 <social.icon className="w-5 h-5" />

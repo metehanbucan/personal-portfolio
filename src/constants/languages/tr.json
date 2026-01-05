@@ -1,9 +1,8 @@
 {
   "nav": [
-    { "href": "#home", "label": "Ana Sayfa" },
+    { "href": "#", "label": "Ana Sayfa" },
     { "href": "#about", "label": "Hakkımda" },
     { "href": "#projects", "label": "Projeler" },
-    { "href": "#experience", "label": "Deneyim" },
     { "href": "#contact", "label": "İletişim" }
   ],
   "hero": {
@@ -78,6 +77,57 @@
     "title": "Projelerim",
     "headerFirstPart": "Etkileyici",
     "headerSecondPart": "projeler.",
-    "description": "Fonksiyonel web uygulamalarından, gerçek dünya problemlerine kodla çözüm üreten yaratıcı araçlara kadar; son dönemde geliştirdiğim projelerden bir seçki."
+    "description": "Fonksiyonel web uygulamalarından, gerçek dünya problemlerine kodla çözüm üreten yaratıcı araçlara kadar; son dönemde geliştirdiğim projelerden bir seçki.",
+    "viewAllButton": "Tüm Projeleri Görüntüle"
+  },
+
+  "contact": {
+    "title": "İletişime Geçin",
+    "headerPart1": "Harika bir şeyler",
+    "headerPart2": "inşa edelim.",
+    "description": "Aklınızda bir proje mi var? Duymak isterim. Bana bir mesaj gönderin ve birlikte nasıl çalışabileceğimizi tartışalım.",
+    "name": "İsim",
+    "namePlaceholder": "Adınız...",
+    "email": "E-posta",
+    "emailPlaceholder": "adınız@email.com",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız...",
+    "sendButton": "Mesaj Gönder",
+    "information": {
+      "title": "İletişim Bilgileri"
+    },
+    "contactInfo": [
+      {
+        "icon": "Mail",
+        "label": "Email",
+        "value": "metehanbucan@gmail.com",
+        "href": "mailto:metehanbucan@gmail.com"
+      },
+      {
+        "icon": "Phone",
+        "label": "Telefon",
+        "value": "+90 540 106 1099",
+        "href": "tel:+905401061099"
+      },
+      {
+        "icon": "MapPin",
+        "label": "Lokasyon",
+        "value": "İstanbul, Türkiye",
+        "href": "#"
+      }
+    ],
+    "availability": {
+      "title": "Şu Anda Uygun",
+      "description": "Şu anda yeni fırsatlara ve heyecan verici projelere açığım. İster tam zamanlı bir mühendis, ister serbest danışman arıyor olun, konuşalım!"
+    }
+  },
+
+  "footer": {
+    "links": [
+      { "href": "#about", "label": "Hakkımda" },
+      { "href": "#projects", "label": "Projeler" },
+      { "href": "#contact", "label": "İletişim" }
+    ],
+    "rights": "Metehan Buçan. Tüm hakları saklıdır"
   }
 }
